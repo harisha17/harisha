@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/HibernateLib"/>
+	<classpathentry kind="lib" path="E:/01_TrainingMaterials/Hibernate/jar/jarsRequired/antlr-2.7.6.jar"/>
+	<classpathentry kind="lib" path="E:/01_TrainingMaterials/Hibernate/jar/jarsRequired/commons-collections-3.1.jar"/>
+	<classpathentry kind="lib" path="E:/01_TrainingMaterials/Hibernate/jar/jarsRequired/dom4j-1.6.1.jar"/>
+	<classpathentry kind="lib" path="E:/01_TrainingMaterials/Hibernate/jar/jarsRequired/ehcache-core-2.5.0.jar"/>
+	<classpathentry kind="lib" path="E:/01_TrainingMaterials/Hibernate/jar/jarsRequired/hibernate3.jar"/>
+	<classpathentry kind="lib" path="E:/01_TrainingMaterials/Hibernate/jar/jarsRequired/hibernate-jpa-2.0-api-1.0.0.Final.jar"/>
+	<classpathentry kind="lib" path="E:/01_TrainingMaterials/Hibernate/jar/jarsRequired/javassist-3.12.0.GA.jar"/>
+	<classpathentry kind="lib" path="E:/01_TrainingMaterials/Hibernate/jar/jarsRequired/jta-1.1.jar"/>
+	<classpathentry kind="lib" path="E:/01_TrainingMaterials/Hibernate/jar/jarsRequired/mysql-connector-java-5.1.13-bin.jar"/>
+	<classpathentry kind="lib" path="E:/01_TrainingMaterials/Hibernate/jar/jarsRequired/slf4j-api-1.6.1.jar"/>
+	<classpathentry kind="lib" path="E:/01_TrainingMaterials/Hibernate/jar/jarsRequired/slf4j-simple-1.6.2.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>

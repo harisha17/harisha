@@ -1,0 +1,182 @@
+<html>
+	<head>
+		<script>
+			<!-- function GEEKFORGEEKS() {
+				var Name =
+					document.forms["RegForm"]["Name"];
+				var Taskid =
+					document.forms["RegForm"]["taskid"];
+				var Description =
+					document.forms["RegForm"]["description"];
+				var Status =
+					document.forms["RegForm"]["status"];
+				var Priority =
+					document.forms["RegForm"]["priority"];
+				var Notes =
+					document.forms["RegForm"]["notes"];
+				var Bookmark =
+					document.forms["RegForm"]["bookmark"];
+				var Ownerid =
+					document.forms["RegForm"]["ownerid"];
+				var Creationon =
+					document.forms["RegForm"]["creationon"];
+				var Modifiedon =
+					document.forms["RegForm"]["modifiedon"];
+
+				if (Name.value == "") {
+					window.alert("Please enter your name.");
+					name.focus();
+					return false;
+				}
+
+				if (Taskid.value == "") {
+					window.alert("Please enter your taskid.");
+					taskid.focus();
+					return false;
+				}
+
+				if (Description.value == "") {
+					window.alert(
+					"Please enter a  description.");
+					description.focus();
+					return false;
+				}
+
+				if (Status.value == "") {
+					window.alert(
+					"Please enter your status.");
+					status.focus();
+					return false;
+				}
+
+				if (Priority.value == "") {
+					window.alert("Please enter your priority");
+					priority.focus();
+					return false;
+				}
+
+				if (what.selectedIndex < 1) {
+					alert("Please enter your course.");
+					what.focus();
+					return false;
+				}
+					if (Notes.value == "") {
+					window.alert("Please enter your notes");
+					notes.focus();
+					return false;
+				}
+					if (Bookmark.value == "") {
+					window.alert("Please enter bookmark");
+					bookmark.focus();
+					return false;
+				}
+					if (Ownerid.value == "") {
+					window.alert("Please enter ownerid");
+					ownerid.focus();
+					return false;
+				}
+					if (Creationon.value == "") {
+					window.alert("Please enter creationon");
+					creationon.focus();
+					return false;
+				}
+					if (Modifiedon.value == "") {
+					window.alert("Please enter modifiedon");
+					modifiedon.focus();
+					return false;
+				}
+return true;
+			}
+
+function validateForm() {
+  let x = document.forms["myForm"]["fname"].value;
+  if (x == "") {
+    alert("Name must be filled out");
+    return false;
+  }
+}-->
+		</script>
+			
+<style>
+			div {
+				box-sizing: border-box;
+				width: 100%;
+				border: 100px solid black;
+				float: left;
+				align-content: center;
+				align-items: center;
+			}
+
+			form {
+				margin: 0 auto;
+				width: 600px;
+			}
+		</style>
+		
+	</head>
+<body>
+		<h1 style="text-align: center;">REGISTRATION FORM</h1>
+		<form name="RegForm" action="/submit.php"
+			onsubmit="return GEEKFORGEEKS()" method="post">
+
+<p>Name: <input type="text"
+							size="65" name="fname" data-required-message="required field" required/></p><br />
+<p>Task Id: <input type="text"
+							size="65" name="taskid" data-required-message="required field" required/></p>
+			<br />
+			<p>Description: <input type="text"
+							size="65" name="description" data-required-message="required field" required/>
+		</p>
+			<br />
+			<p>Status: <input type="text"
+							size="65" name="status" data-required-message="required field" required/></p>
+			<br />
+			<p>Priority: <input type="text"
+						size="65" name="priority" data-required-message="required field" required/></p>
+			<br />
+			<p>Notes: <input type="text"
+						size="65" name="notes" data-required-message="required field" required/></p>
+			<br />
+
+<p>Bookmark: <input type="text"
+						size="65" name="bookmark" data-required-message="required field" required/></p>
+			<br />
+<p>Owner Id: <input type="text"
+						size="65" name="ownerid" data-required-message="required field" required/></p>
+			<br />
+<p>Creation on: <input type="text"
+						size="65" name="creationon" data-required-message="required field" required/></p>
+			<br />
+<p>Modified on: 
+<input type="date" id="start" name="trip-start"
+       value="2018-07-22"
+       min="1990-01-01" max="2018-12-31"></p>
+</br>
+
+
+
+
+
+			<!--<p>
+				SELECT YOUR COURSE
+				<select type="text" value="" name="Subject">
+					<option>BTECH</option>
+					<option>BBA</option>
+					<option>BCA</option>
+					<option>B.COM</option>
+					<option>GEEKFORGEEKS</option>
+				</select>
+			</p>-->
+			<br />
+			<br />
+			<!--<p>Comments: <textarea cols="55"
+							name="Comment"> </textarea></p>-->
+			<p>
+				<input type="submit"
+					value="submit" name="Submit" />
+				<input type="reset"
+					value="Reset" name="Reset" />
+			</p>
+		</form>
+	</body>
+</html>
